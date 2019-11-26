@@ -17,28 +17,31 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-
-hr{
-    
-}
-
-main{
-
+header{
+    background-color: #ffffff;
+    border-bottom: #cccccc 2px solid;
 }
 
 p{
     color: #777777;
-    clear: both;
+    float: left;
+    width: 80%;
 }
 
 .bio-text{
 
 }
 
+.clearfix::after{
+    display: block;
+    content: "Here I am!";
+    clear: both;
+
+}
+
 .container{
-    width: 50%;
+    width: 100%;
     background-color: #ffffff;
-    border: solid #dddddd 4px; 
 }
 
 .logo{
@@ -62,9 +65,9 @@ p{
 }
 
 #copyright-text{
-    background-color: gray;
+    background-color: #666666;
     color: white;
-    border-top: #4aaaa5 solid 4px;
+    border-top: #4aaaa5 solid 2px;
     display: block;
     text-align: center;
 }
@@ -78,7 +81,9 @@ p{
 #profile-photo{
     float: left;
     overflow: auto;
-    display: inline;
-    position: absolute;
+    /* width: 140px;
+    height: auto; */
+    width: 10%;
+    height: auto;
 
 }
