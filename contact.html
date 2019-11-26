@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Brandon Williams</title>
+</head>
+
+<body>
+    <header>
+        <!-- The first link in the nav section of the page is inactive and will serve as the logo for the page. 
+        The rest of the links have been given the class of nave-item to make styling them as simple as possible in the future.  -->
+        <nav class="main-nav">
+            <a href="#" class="logo">Brandon Williams</a>
+            <a href="index.html" class="nav-item">About Me</a>
+            <a href="portfolio.html" class="nav-item">My Portfolio</a>
+            <a href="contact.html" class="nav-item">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <hr>
+            <form action="#" method="POST">
+                <label for="contact-full-name">*Name:</label>
+                <br>
+                <input type="text" id="contact-full-name" placeholder="Please enter your full name." required>
+                <br>
+                <label for="contact-email">*E-mail:</label>
+                <br>
+                <input type="email" id="contact-email" placeholder="johndoe@gmail.com" required>
+                <br>
+                <label for="contact-message">*Message:</label>
+                <br>
+                <textarea name="contact-message-area" id="contact-message" cols="30" rows="10" placeholder="Please enter a brief message regrading your inquiry." required></textarea>
+                <br>
+                <button type="submit" id="contact-submit-button">Submit</button>
+                <button type="reset" id="contact-reset-button">Reset</button>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="copyright-text">
+            <sub>Copyright &copy;</sub>
+        </div>
+    </footer>
+</body>
+
+</html>

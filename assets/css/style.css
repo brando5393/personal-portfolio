@@ -1,0 +1,84 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+figure{
+
+}
+
+figcaption{
+    position: absolute;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+
+hr{
+    
+}
+
+main{
+
+}
+
+p{
+    color: #777777;
+    clear: both;
+}
+
+.bio-text{
+
+}
+
+.container{
+    width: 50%;
+    background-color: #ffffff;
+    border: solid #dddddd 4px; 
+}
+
+.logo{
+    color: white;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.main-nav{
+    margin-bottom: 30px;
+    
+
+}
+
+.nav-item{
+    text-decoration: none;
+    float: right;
+    padding-right: 5px;
+}
+
+#copyright-text{
+    background-color: gray;
+    color: white;
+    border-top: #4aaaa5 solid 4px;
+    display: block;
+    text-align: center;
+}
+
+#contact-submit-button, #contact-reset-button{
+    color: white;
+    background-color: #4aaaa5;
+    
+}
+
+#profile-photo{
+    float: left;
+    overflow: auto;
+    display: inline;
+    position: absolute;
+
+}
