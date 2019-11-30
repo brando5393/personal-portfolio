@@ -3,12 +3,18 @@ body{
 
 }
 
-figure{
-
+figcaption{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    display: block;
+    float: left;
+    position: absolute;
 }
 
-figcaption{
-    position: absolute;
+figure{
+    float: left;
+    overflow: auto;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -20,6 +26,10 @@ h1,h2,h3,h4,h5,h6{
 header{
     background-color: #ffffff;
     border-bottom: #cccccc 2px solid;
+}
+
+main{
+    display: block;
 }
 
 p{
@@ -34,14 +44,15 @@ p{
 
 .clearfix::after{
     display: block;
-    content: "Here I am!";
+    content: "";
     clear: both;
-
 }
 
 .container{
-    width: 100%;
+    width: 960px;
+    height: 960px;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 
 .logo{
@@ -49,6 +60,7 @@ p{
     background-color: #4aaaa5;
     text-decoration: none;
     padding: 20px;
+    font-size: 35px;
 
 }
 
@@ -86,4 +98,8 @@ p{
     width: 10%;
     height: auto;
 
+}
+
+#page-heading{
+    margin-top: 0px;
 }
