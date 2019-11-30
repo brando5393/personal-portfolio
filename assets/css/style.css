@@ -1,5 +1,6 @@
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #EFEFEF;
 
 }
 
@@ -28,6 +29,10 @@ header{
     border-bottom: #cccccc 2px solid;
 }
 
+hr{
+    color: #777777;
+}
+
 main{
     display: block;
 }
@@ -50,9 +55,12 @@ p{
 
 .container{
     width: 960px;
-    height: 960px;
+    height: 400px;
     background-color: #ffffff;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
 }
 
 .logo{
@@ -61,6 +69,7 @@ p{
     text-decoration: none;
     padding: 20px;
     font-size: 35px;
+    font-weight: bold;
 
 }
 
@@ -74,6 +83,12 @@ p{
     text-decoration: none;
     float: right;
     padding-right: 5px;
+    color: #777777;
+    font-size: 18px;
+}
+
+.page-heading{
+    margin-top: 35px;
 }
 
 #copyright-text{
@@ -93,10 +108,9 @@ p{
 #profile-photo{
     float: left;
     overflow: auto;
-    /* width: 140px;
-    height: auto; */
     width: 10%;
     height: auto;
+    margin-right: 10px;
 
 }
 
