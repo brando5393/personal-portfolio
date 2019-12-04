@@ -22,6 +22,11 @@ figure{
     position: relative;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
 h1,h2,h3,h4,h5,h6{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -101,6 +106,8 @@ p{
     border-top: #4aaaa5 solid 2px;
     display: block;
     text-align: center;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 #contact-submit-button, #contact-reset-button{
