@@ -64,7 +64,7 @@ p{
 
 .container{
     width: 960px;
-    height: 400px;
+    height: auto;
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: 20px;
